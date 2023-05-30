@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "mymoney-54d85"
-  }
+    "default": "mymoney-54d85",
+    "mymoney": "mymoney-54d85"
+  },
+  "targets": {},
+  "etags": {}
 }

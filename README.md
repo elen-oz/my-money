@@ -2,33 +2,28 @@
 
 [Link to the project](https://mymoney-54d85.web.app/)
 
-This app is for keeping track of your expenses.
-Created:
+## Project Description
 
-- registration page
-- login page
-- user page
+My Money is a web application designed to help users keep track of their expenses. This project is built with React and uses Firebase for backend services.
 
-If the user is not authorized, only the registration and login pages are available to him.
-If the user is authorized, he is redirected to the home page, where the cost sheet is located and the ability to create a new cost.
+## Features
 
-Connected to work with a database located in Firebase.
+- **Interaction with Firebase**: The application uses Firebase for backend services.
+- **User Registration and Login**: The application supports user registration and login.
+- **Adding and Deleting Records**: Users can add and delete their own expense records.
 
-Implemented the ability to create several users who will have their own page with their own spending.
+## Installation
 
-## Available Scripts
+Before you start, make sure you have Node.js and npm installed on your machine.
 
-In the project directory, you can run:
+1. Clone this repository to your local machine using `https://github.com/elen-oz/my-money.git`
+2. Navigate to the project directory: `cd my-money`
+3. Install all required dependencies with `npm install`
 
-### `npm start`
+## Usage
 
-Runs the app in the development mode.\
-Open [localhost:3000](http://localhost:3000) to view it in the browser.
+To run the application in development mode, use the command `npm start`. Open your browser and visit `localhost:3000` to view the application.
 
-### `npm run build`
+To build the application for production, use the command `npm run build`. This will create a `build` folder with all the necessary files for deployment.
 
-Builds the app for production to the `build` folder.\
-
-### `firebase deploy`
-
-Deploy on Firebase
+To deploy the application on Firebase, use the command `firebase deploy`. Make sure you have Firebase CLI installed and you're logged into Firebase.

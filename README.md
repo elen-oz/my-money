@@ -1,4 +1,4 @@
-# My my-money
+# My Money
 
 [Link to the project](https://mymoney-54d85.web.app/)
 
